@@ -360,7 +360,7 @@ func getEthBlockDelay(chainID uint64) uint64 {
 	// up to num validators blocks. Number is higher than Ethereum based
 	// on experience with operational issues
 	case 4, 5:
-		return 10
+		return 6
 
 	// assume the safe option (POW) where we don't know
 	default:
